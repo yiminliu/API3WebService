@@ -1,0 +1,30 @@
+#
+# Default logging parameters
+#
+
+# define the types of log messages
+logTypes: servlet,db,task,iconnect,event,billing,workplan,objutils,qwest,equifax,users,sales,lsog,automation,brandx,linetest,cos,e911,api,rpi
+
+# define the log levels - lowest to highest
+logLevels: info,warn,error,off
+#logLevels: warn,error,off
+
+# set default properties for all log messages
+defaultLogFile: /apps/webadmin/SUNWappserver/domains/mvnoprod/logs/dcilogger.log
+defaultLogLevel: info
+defaultLogTimestamp: true
+
+#servletLogFile: /usr/local/apache/logs/servlet.log
+#servletLogLevel: info
+
+#dbLogFile: db.log
+#dbLogLevel: warn
+
+#taskLogFile: task.log
+#taskLogLevel: info
+
+#billingLogFile: billing.log
+#billingLogLevel: info
+
+#workplanLogFile: workplan.log
+#workplanLogLevel: info

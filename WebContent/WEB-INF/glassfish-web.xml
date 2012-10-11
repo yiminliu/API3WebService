@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sun-web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Application Server 9.0 Servlet 2.5//EN" "http://www.sun.com/software/appserver/dtds/sun-web-app_2_5-0.dtd">
+<sun-web-app>
+  <context-root>API3_1.0a</context-root>
+  <servlet>
+    <servlet-name>API3</servlet-name>
+    <webservice-endpoint>
+      <port-component-name>API3</port-component-name>
+      <endpoint-address-uri>/API3Service</endpoint-address-uri>
+      <service-qname>
+        <namespaceURI>http://webservices.mvno.tscp.com/</namespaceURI>
+        <localpart>API3Service</localpart>
+      </service-qname>
+      <servlet-impl-class>com.tscp.mvno.webservices.API3</servlet-impl-class>   
+    </webservice-endpoint>       
+  </servlet>
+  <parameter-encoding default-charset="UTF-8"/> 
+</sun-web-app>
